@@ -6,4 +6,6 @@
 
 3-listfiles script shows contents in long format.
 
-4-listmorefiles script shows detailed files starting with "."
+4-listmorefiles script shows detailed hidden files.
+
+5-listfilesdigitsonly script shows all files including hidden with long format including group and user id.
