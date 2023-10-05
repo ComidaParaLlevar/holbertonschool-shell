@@ -5,3 +5,5 @@
 2-bring_me_home script navigates to home directory.
 
 3-listfiles script shows contents in long format.
+
+4-listmorefiles script shows detailed files starting with "."
