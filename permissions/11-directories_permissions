@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -r 711 dir*
+sudo chmod -R 711 dir0 dir1 dir2
