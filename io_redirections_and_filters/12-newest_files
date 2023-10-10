@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -c -t1 --ignore='7*' --ignore='8*' --ignore='9*' --ignore='*.md'
+ls -c -t1 | head -n 10
