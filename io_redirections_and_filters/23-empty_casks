@@ -1,2 +1,3 @@
 #!/bin/bash
-find -r . -type d -empty | sort | find -r . -type f -empty | sort
+find . -type f -empty -exec sh -c 'echo "${0##*/}"' {} + -o -type d -empty -exec sh -c 'echo "${0##*/}"' {} \; | tr -s '\n' '\n'
+
