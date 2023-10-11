@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | tr -d '\n' -o tr -s 'H' 'H\n'
+printf "%s\n" "(cut -c 1 | tr -d '\n')" 
