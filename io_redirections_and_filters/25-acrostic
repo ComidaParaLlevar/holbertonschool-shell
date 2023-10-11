@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | tr -d '\n' -o printf '\n' 
+cut -c 1 | tr -d '\n' | echo -e "\n" >> acrostic_1 acrostic_3 
